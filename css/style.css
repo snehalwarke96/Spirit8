@@ -57,14 +57,15 @@ body{
 
 
 .wrap img{
-filter: invert();
+filter: invert(1);
+
 
 }
 
 .wrap {
-    border: 2px solid #fcac45;
+    border: 2px solid #e18711;
     padding: 5px;
-    background-color: #fcac45;
+    background-color:#e18711 ;
 }
 
 .wrapDiv{
@@ -211,7 +212,12 @@ width: 550px;
     font-size: 30px;
     margin: 10px 0px;
     font-weight: 100;
+    
    
+}
+
+.serHead h2,  .serHead3 h2, .portHead h2, .teamHead h2{
+    text-align: center;
 }
 
 .abtInfo{
